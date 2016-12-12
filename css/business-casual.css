@@ -101,7 +101,20 @@ hr {
     float: none;
     margin: 0 auto 0;
 }
-
+#gallery p {
+	color: white;
+	opacity: 0;
+	position: absolute;
+	top: 40%;
+	width: 90%;
+	margin: 0, auto;
+	background:rgba(0,0,0,0.7);
+	padding: 8px;
+	text-align: center;
+}
+#gallery div:hover > p {
+	opacity: 1;
+}
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
